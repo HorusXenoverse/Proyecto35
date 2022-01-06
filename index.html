@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    
+<!-- El SDK de Firebase JS principal siempre es obligatorio y se debe figurar primero -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+<!-- TODO: Agrega SDK para los productos de Firebase que quieras usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // La configuración de Firebase de tu aplicación web
+  var firebaseConfig = {
+    apiKey: "AIzaSyD_r7G4ia-ho-LMshWpUnMAi_9udoGAHhw",
+    authDomain: "pelota-7c47f.firebaseapp.com",
+    databaseURL: "https://pelota-7c47f-default-rtdb.firebaseio.com",
+    projectId: "pelota-7c47f",
+    storageBucket: "pelota-7c47f.appspot.com",
+    messagingSenderId: "114604936797",
+    appId: "1:114604936797:web:a337fb9cc0d6c8161107b4"
+  };
+  //Initialize Firebase 
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
